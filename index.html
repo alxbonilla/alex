@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+
+
+		<meta charset="UTF-8">
+		<title>alex</title>
+
+		<meta name="author" content="alexander bonilla">
+		<meta name="description" content="a portfolio for some designer">
+		<meta name="keywords" content="designer,portfolio,ux,ui,web,coder">
+
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+		<link href="style.css" rel="stylesheet">
+
+
+
+
+
+
+	</head>
+
+
+
+
+
+	<body>
+
+		<noscript>
+			<div id="noscript">
+				<div>
+					<p>Hi there!</p>
+					<p>My Portfolio requires JavaScript to work, so please enable it on your browser to get the full experience.</p>
+					<p>If you are unable to do so for any reason, please email me at <a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a></p>
+					<p>I'll gladly send you a static version of my portfolio!</p>
+					<p>–Alex</p>
+				</div>
+			</div>
+		</noscript>
+
+
+		<div id="main">
+
+
+			<img src="images/profile-photo-sp.jpg" alt="alexander's profile photo" id="profile-pic">
+
+
+
+			<div id="bio">
+
+
+				<div class="first-line">
+					<h1 id="username">alex</h1>
+					<img id="verified-badge" src="images/verified-badge.png" alt="verified-badge">
+					<a id="email-button" href="">Email Me</a>
+				</div>
+
+
+				<div class="line stats">
+					<span>
+						<p class="bold">6</p>
+						<p>works</p>
+					</span>
+					<button id="followers" onclick="window.location.href=''">
+						<p class="bold">2</p>
+						<p>followers</p>
+					</button>
+
+
+					<div id="followersModal" class="modal">
+						<div class="modal-content">
+							<h3>Followers</h3>
+							<img src="images/x.png" id="closeFollowers">
+							<div class="entry">
+								<img src="images/profile-photo-sp.jpg">
+								<p class="boldname">nmeh.ra</p>
+								<p class="grayname">brieAnna Bales</p>
+							</div>
+							<div class="entry">
+								<img src="images/profile-photo-sp.jpg">
+								<p class="boldname">nmeh.ra</p>
+								<p class="grayname">brieAnna Bales</p>
+							</div>
+						</div>
+					</div>
+
+
+					<button id="following" onclick="window.location.href=''">
+						<p class="bold">3</p>
+						<p>following</p>
+					</button>
+
+
+					<div id="followingModal" class="modal">
+						<div class="modal-content">
+							<h3>Following</h3>
+							<img src="images/x.png" id="closeFollowing">
+							<div class="entry">
+								<img src="images/profile-photo-sp.jpg">
+								<p class="boldname">ilove</p>
+								<p class="grayname">Bad Bunny</p>
+							</div>
+							<div class="entry">
+								<img src="images/profile-photo-sp.jpg">
+								<p class="boldname">nmeh.ra</p>
+								<p class="grayname">brieAnna Bales</p>
+							</div>
+							<div class="entry">
+								<img src="images/profile-photo-sp.jpg">
+								<p class="boldname">nmeh.ra</p>
+								<p class="grayname">brieAnna Bales</p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
+				<div class="line text">
+					<h2>Alexander Bonilla</h2>
+					<p>Senior ux/ui designer & developer.</p>
+					<p>3+ yrs of experience as a creative lead at the University of Washington.</p>
+				</div>
+
+
+			</div>
+
+
+
+
+
+
+			<div id="stories">
+
+
+				<button id="about-me-story" href="">
+					<img src="images/profile-photo-sp.jpg">
+					<h3>ABOUT ME</h3>
+				</button>
+
+				<a href="">
+					<img src="images/profile-photo-sp.jpg">
+					<h3>LINKEDIN</h3>
+				</a>
+
+
+			</div>
+
+			<div id="aboutModal">
+				<div class="modal-content">
+					<img src="images/profile-photo-sp.jpg" class="about-profile">
+					<h3>ABOUT ME</h3>
+					<img src="images/x-white.png" id="closeAbout">
+    				<div class="underline"></div>
+    				<img class="about-img" src="https://wallpapercave.com/wp/wp1817025.png">
+				</div>
+			</div>
+
+
+
+
+
+
+			<div id="posts-header">
+
+				<div class="header-centered">
+
+					<a href="" class="works active">
+						<img src="images/posts-icon-active.png">
+						<h2>WORKS</h2>
+					</a>
+
+					<a href="" class="random">
+						<img src="images/tagged-icon.png">
+						<h2>RANDOM</h2>
+					</a>
+
+				</div>
+
+				<!-- <div class="mobile-header-centered">
+					<a href="" class="works active">
+						<img src="images/posts-icon-active.png">
+					</a>
+					<a href="" class="random">
+						<img src="images/tagged-icon.png">
+					</a>
+				</div> -->
+
+			</div>
+
+
+
+
+
+
+
+			<ul id="all-posts" style="list-style: none;">
+
+				<li>
+					<button onclick="openThis(this)">
+						<img src="images/profile-photo-sp.jpg">
+						<div class="proj-back" style="
+							display: none;
+							width: 100%;
+							height: 100%;
+							background-color: red;
+							position: fixed;
+							z-index: 2;
+							top: 0px;
+							left: 0px;
+							overflow: scroll;
+							">
+							<div class="proj-container" style="
+								width: 90%;
+								background-color: #fff;
+								position: relative;
+								left: 5%;
+								top: 5%;
+								padding: 10px;
+								border-radius: 20px;
+								">
+
+								<div onclick="closeAll()" style="
+									position: absolute;
+									right: 2px;
+									top: 30px;
+									">
+									<img src="images/x-white.png" style="
+										position: relative;
+										right: -10px;
+										height: 24px;
+										width: 24px;
+										">
+									<p style="
+										position: relative;
+										right: 64px;
+										top: -27px;
+										color: #fff;
+										font-size: 21px;
+										font-weight: 600;">CLOSE</p>
+								</div>
+
+
+
+								<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/BW_Summer_Festival_Skinny_Dip_2013_banner.jpg" style="
+									width: 100%;
+									border-radius: 10px;
+									">
+								<h2>UW Department of Medicine Website</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id velit ut tortor pretium viverra suspendisse potenti. Vitae suscipit tellus mauris a diam maecenas sed.</p>
+								
+							</div>
+							
+						</div>
+
+					</button>
+
+					<span class="space"></span>
+
+				</li>
+
+
+				<li>
+					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
+					<span class="space"></span>
+				</li>
+
+
+				<li>
+					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
+					<div class="space"></div>
+				</li>
+
+
+				
+
+
+				<li>
+					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
+					<span class="space"></span>
+				</li>
+
+
+
+				<li>
+					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
+					<span class="space"></span>
+				</li>
+
+
+
+				<li>
+					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
+					<div class="space"></div>
+				</li>
+
+
+
+			</ul>
+
+
+
+
+
+			<!-- <ul id="footer">
+				<li><a href="">HOME</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">RANDOM</a></li>
+				<li><a href="">LINKEDIN</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul> -->
+
+
+
+
+
+
+			
+
+
+		</div>
+
+
+		
+		
+
+
+
+
+		
+		
+
+
+
+		<script>
+
+			var followersModal = document.getElementById("followersModal");
+			var followingModal = document.getElementById("followingModal");
+			var aboutModal = document.getElementById("aboutModal");
+			var followers = document.getElementById("followers");
+			var following = document.getElementById("following");
+			var about = document.getElementById("about-me-story");
+			var closeFollowers = document.getElementById("closeFollowers");
+			var closeFollowing = document.getElementById("closeFollowing");
+			var closeAbout = document.getElementById("closeAbout");
+
+
+			followers.onclick = function() {
+				followersModal.style.display = "block";
+			}
+			following.onclick = function() {
+				followingModal.style.display = "block";
+			}
+			about.onclick = function() {
+				aboutModal.style.display = "block";
+			}
+
+			closeFollowers.onclick = function() {
+				followersModal.style.display = "none";
+			}
+			closeFollowing.onclick = function() {
+				followingModal.style.display = "none";
+			}
+			closeAbout.onclick = function() {
+				aboutModal.style.display = "none";
+			}
+
+			window.onclick = function(event) {
+				if (event.target == followersModal) {
+					followersModal.style.display = "none";
+				}
+				if (event.target == followingModal) {
+					followingModal.style.display = "none";
+				}
+				if (event.target == aboutModal) {
+					aboutModal.style.display = "none";
+				}
+			}
+
+
+
+
+
+			function openThis(thumb) {
+				var yes = thumb.children;
+				yes[1].style.display = "block";
+				console.log(yes[1]);
+			}
+
+
+
+			// var hash = window.location.hash;
+			// setInterval(function(){
+			//     if (window.location.hash != hash) {
+			//         hash = window.location.hash;
+			//         alert("User went back or forward to application state represented by " + hash);
+			//     }
+			// }, 100);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+
+
+
+
+</html>
