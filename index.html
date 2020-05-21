@@ -1,28 +1,16 @@
 <!DOCTYPE html>
 
 
-<html>
+<html lang="en">
 
 	<head>
-
-
 		<meta charset="UTF-8">
 		<title>alex</title>
-
 		<meta name="author" content="alexander bonilla">
-		<meta name="description" content="a portfolio for some designer">
+		<meta name="description" content="alexander's portfolio">
 		<meta name="keywords" content="designer,portfolio,ux,ui,web,coder">
-
-
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-
 		<link href="style.css" rel="stylesheet">
-
-
-
-
-
-
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	</head>
 
 
@@ -34,165 +22,516 @@
 		<noscript>
 			<div id="noscript">
 				<div>
-					<p>Hi there!</p>
-					<p>My Portfolio requires JavaScript to work, so please enable it on your browser to get the full experience.</p>
-					<p>If you are unable to do so for any reason, please email me at <a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a></p>
-					<p>I'll gladly send you a static version of my portfolio!</p>
-					<p>–Alex</p>
+					<p>enable javascript on this browser for some fun interactions!</p>
 				</div>
 			</div>
 		</noscript>
 
 
-		<div id="main">
-
-
-			<img src="images/profile-photo-sp.jpg" alt="alexander's profile photo" id="profile-pic">
 
 
 
-			<div id="bio">
+		<div id="email">
+			<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
+		</div>
 
 
-				<div class="first-line">
-					<h1 id="username">alex</h1>
-					<img id="verified-badge" src="images/verified-badge.png" alt="verified-badge">
-					<a id="email-button" href="">Email Me</a>
+		<div id="scroll">
+			<img src="images/open-icon.png" alt="arrow pointing down">
+		</div>
+
+
+
+
+		<div id="intro">
+			
+			<div>
+				<h1>
+					hey! i'm alexander.
+				</h1>
+				<p>
+					and i also go by alex.
+				</p>
+				<img src="images/profile.jpeg" alt="alexander smiling in a button up shirt">
+			</div>
+
+			<div class="uw">
+				<h1>
+					i’m a ux/ui designer and developer with ~3 years of experience being a creative lead.
+				</h1>
+				<p>
+					currently working at <a href="https://uw.edu">university of washington</a>.
+				</p>
+				<img src="images/uw-logo.png" alt="university of washington logo">
+			</div>
+
+			<div class="emoji">
+				<h1>
+					my focus is on aesthetics, usability, and accessibility.
+				</h1>
+				<p>
+					“it looks good, it works good, it does good”
+				</p>
+				<img src="images/eyes.png" alt="pair of eyes looking to the left emoji">
+				<img src="images/phone.png" alt="arm holding up a smartphone emoji">
+				<img src="images/woman-with-cane.png" alt="a woman walking with a white cane emoji">
+			</div>
+
+			<div>
+				<h1>
+					recent case studies:
+				</h1>
+				<p>
+					in-depth walkthroughs available upon request.
+				</p>
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<div id="case-studies">
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<input id="toggle1" type="checkbox" onkeypress="press(this)" onmousedown="check(this)" onmouseup="uncheck(this)" name="button to toggle case study #1">
+
+				<div class="card">
+
+					<div class="spacebar-open">hit spacebar to read more</div>
+					<div class="spacebar-close">hit spacebar to close</div>
+
+					<h1>department of medicine framework redesign</h1>
+
+					<span></span>
+
+					<p>2020</p>
+
+					<img class="arrow" src="images/open-icon.png" alt="arrow pointing down">
+					<img class="x" src="images/open-icon.png" alt="x shape">
+
 				</div>
 
 
-				<div class="line stats">
-					<span>
-						<p class="bold">6</p>
-						<p>works</p>
-					</span>
-					<button id="followers" onclick="window.location.href=''">
-						<p class="bold">2</p>
-						<p>followers</p>
-					</button>
+				
+
+			
 
 
-					<div id="followersModal" class="modal">
-						<div class="modal-content">
-							<h3>Followers</h3>
-							<img src="images/x.png" id="closeFollowers">
-							<div class="entry">
-								<img src="images/profile-photo-sp.jpg">
-								<p class="boldname">nmeh.ra</p>
-								<p class="grayname">brieAnna Bales</p>
-							</div>
-							<div class="entry">
-								<img src="images/profile-photo-sp.jpg">
-								<p class="boldname">nmeh.ra</p>
-								<p class="grayname">brieAnna Bales</p>
-							</div>
+
+
+
+
+				<input id="toggle2" type="checkbox" onkeypress="press(this)" onmousedown="check(this)" onmouseup="uncheck(this)" name="button to toggle case study #2">
+
+				<div class="card">
+
+					<div class="spacebar-open">hit spacebar to read more</div>
+					<div class="spacebar-close">hit spacebar to close</div>
+
+					<h1>department of medicine news site</h1>
+
+					<span></span>
+
+					<p>2020</p>
+
+					<img class="arrow" src="images/open-icon.png" alt="arrow pointing down">
+					<img class="x" src="images/open-icon.png" alt="x shape">
+
+				</div>
+				
+
+
+
+
+
+
+
+
+
+				<input id="toggle3" type="checkbox" onkeypress="press(this)" onmousedown="check(this)" onmouseup="uncheck(this)" name="button to toggle case study #3">
+
+				<div class="card">
+
+					<div class="spacebar-open">hit spacebar to read more</div>
+					<div class="spacebar-close">hit spacebar to close</div>
+
+					<h1>center for emerging & re-emerging infectious diseases</h1>
+
+					<span></span>
+
+					<p>2018</p>
+
+					<img class="arrow" src="images/open-icon.png" alt="arrow pointing down">
+					<img class="x" src="images/open-icon.png" alt="x shape">
+
+				</div>
+
+
+
+
+
+
+
+
+
+				<input id="toggle4" type="checkbox" onkeypress="press(this)" onmousedown="check(this)" onmouseup="uncheck(this)" name="button to toggle case study #4">
+
+				<div class="card">
+
+					<div class="spacebar-open">hit spacebar to read more</div>
+					<div class="spacebar-close">hit spacebar to close</div>
+
+					<h1>department of medicine division sites</h1>
+
+					<span></span>
+
+					<p>2020</p>
+
+					<img class="arrow" src="images/open-icon.png" alt="arrow pointing down">
+					<img class="x" src="images/open-icon.png" alt="x shape">
+
+				</div>
+
+
+
+
+
+
+
+
+				<input id="toggle5" type="checkbox" onkeypress="press(this)" onmousedown="check(this)" onmouseup="uncheck(this)" name="button to toggle case study #5">
+
+				<div class="card">
+
+					<div class="spacebar-open">hit spacebar to read more</div>
+					<div class="spacebar-close">hit spacebar to close</div>
+
+					<h1>department of obgyn site</h1>
+
+					<span></span>
+
+					<p>2019</p>
+
+					<img class="arrow" src="images/open-icon.png" alt="arrow pointing down">
+					<img class="x" src="images/open-icon.png" alt="x shape">
+
+				</div>
+				
+
+
+
+
+				<div id="study1" class="study">
+
+					<div class="header">
+						<h2>the university's largest department needs a new look</h2>
+						<span></span>
+						<h3>nov 2018 - present</h3>
+					</div>
+
+					<div class="body">
+						<h2>the problem</h2>
+						<p>my manager and i supported 23+ websites for the department of medicine, all on an antiquated and bloated drupal 7 web framework – a framework slated to reach its end-of-life.</p>
+						<h2>the goal</h2>
+						<p>design an entirely new and original web framework to meet the needs of all users and stakeholders. the end result needs to:</p>
+						<ul>
+							<li>greatly improve on functionality for users and content editors</li>
+							<li>modernize the ux & ui to resolve pain points and enhance the web/mobile experience</li>
+							<li>operate on the new drupal 8 system</li>
+						</ul>
+					</div>
+
+
+					<div class="half">
+						<div>
+							<h3>original (template 1)</h3>
+							<img src="images/now1-home.png" alt="original template 1 screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>original (template 2)</h3>
+							<img src="images/now2-home.png" alt="original template 2 screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>issues with the original templates</h2>
+						<p>the original templates had remained unchanged for years. some of the main <b>ui/visual</b> problems were:</p>
+						<ul>
+							<li>an outdated design based on an older parent theme</li>
+							<li>super thick navbar and purple bar</li>
+							<li>weak/no visual hierarchy</li>
+							<li>contrast & spacing issues</li>
+						</ul>
+						<p>additionally, there were <b>ux/functionality</b> problems:</p>
+						<ul>
+							<li>confusing dropdown menu</li>
+							<li>rigid structure that couldn't be changed by editors</li>
+							<li>limited options for highlighting information</li>
+							<li>loss of functionality on mobile</li>
+						</ul>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>new (template 1)</h3>
+							<img src="images/round1-home.png" alt="new template 1 screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>new (template 2)</h3>
+							<img src="images/round2-home.png" alt="new template 2 screenshot">
+						</div>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>mobile story (template 1)</h3>
+							<img src="images/round2-story-mobile.png" alt="new mobile template 2 screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>desktop story (template 2)</h3>
+							<img src="images/round2-story.png" alt="new desktop template 2 screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>rounded corners</h2>
+						<p>with the original templates, the department's identity felt like an afterthought, and its content was somewhat unorganized. utilizing rounded corners and a more "card-centric" design, i was able to give a more unique look and feel to the department aesthetic, all the while organizing content in a more concise and digestible manner.</p>
+						<h2>menus</h2>
+						<p>with the new templates, clients have the ability to choose between a tucked-away menu and a more traditional inline menu – both of which solve ux issues with the original dropdown menu</p>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>home menu (template 1)</h3>
+							<img src="images/round1-menu.png" alt="template 1 homepage menu functionality screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>page menu (template 1)</h3>
+							<img src="images/round1-menu-internal.png" alt="template 1 internal page menu functionality screenshot">
 						</div>
 					</div>
 
 
-					<button id="following" onclick="window.location.href=''">
-						<p class="bold">3</p>
-						<p>following</p>
-					</button>
+					<div class="body">
+						<h2>internal pages</h2>
+						<p>the original templates were not 'scan friendly.' because users scan websites for the information they're looking for, i designed a <b>page outline section</b> (located on the left, in a 'fixed' position) that allows readers to quickly jump to the information they're looking for.</p>
+						<p>in addition, with the absence of a sidebar and the clear visual separation of content above/below the fold, my design encourages editors to be more intentional with content placement and order.</p>
+					</div>
 
-
-					<div id="followingModal" class="modal">
-						<div class="modal-content">
-							<h3>Following</h3>
-							<img src="images/x.png" id="closeFollowing">
-							<div class="entry">
-								<img src="images/profile-photo-sp.jpg">
-								<p class="boldname">ilove</p>
-								<p class="grayname">Bad Bunny</p>
-							</div>
-							<div class="entry">
-								<img src="images/profile-photo-sp.jpg">
-								<p class="boldname">nmeh.ra</p>
-								<p class="grayname">brieAnna Bales</p>
-							</div>
-							<div class="entry">
-								<img src="images/profile-photo-sp.jpg">
-								<p class="boldname">nmeh.ra</p>
-								<p class="grayname">brieAnna Bales</p>
-							</div>
+					<div class="half">
+						<div>
+							<h3>dept. of medicine website - education before</h3>
+							<img src="images/dom-before.png" alt="department of medicine old education page screenshot">
 						</div>
+						<span></span>
+						<div>
+							<h3>dept. of medicine website - education after (template 2)</h3>
+							<img src="images/dom-after.png" alt="department of medicine new education page screenshot">
+						</div>
+					</div>
+
+
+					<div class="half">
+						<div>
+							<h3>cardiology website – subspecialties before</h3>
+							<img src="images/cardio-before.png" alt="cardiology old page screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>cardiology website – subspecialties after (template 1)</h3>
+							<img src="images/cardio-after.png" alt="cardiology new page screenshot">
+						</div>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>allergy & infectious diseases website – faculty before</h3>
+							<img src="images/aid-before.png" alt="allergy & infectious diseases old page screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>allergy & infectious diseases website – faculty after (template 2)</h3>
+							<img src="images/aid-after.png" alt="allergy & infectious diseases new page screenshot">
+						</div>
+					</div>
+
+
+
+					<div class="body">
+						<h2>closing thoughts</h2>
+						<p>the above screenshots are only a tiny portion of the work done on this project. after <b>many</b> iterations and <b>many</b> design decisions, the finalized product is something that addresses every issue with the current framework.</p>
+						<p><em>as with every project, an in-depth walkthrough is available upon request.</em></p>
+					</div>
+
+					<div class="footer">
+						<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
+					</div>
+
+					
+
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+				<div id="study2" class="study">
+
+					<div class="header">
+						<h2>exciting medical news stories are waiting to be shared</h2>
+						<span></span>
+						<h3>jan 2019 - present</h3>
+					</div>
+
+					<div class="body">
+						<h2>the problem</h2>
+						<p>department news stories were scattered everywhere, with no single website to live on. i suggested a conglomerate news site for our department and its divisions, and leadership loved the idea.</p>
+						<h2>the goal</h2>
+						<p>design a news site that would act as the go-to for all things news – both for the department and for the public. the end result needed to:</p>
+						<ul>
+							<li>be designed to tell news stories in an engaging way</li>
+							<li>be able to work with minimal (or even poor quality) media</li>
+							<li>encourage internal and external audiences to share news</li>
+						</ul>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>mobile</h3>
+							<img src="images/news-home-mobile.png" alt="news site mobile screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>desktop</h3>
+							<img src="images/news-home.png" alt="news site desktop screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>turning restrictions into opportunities</h2>
+						<p>i moved forward with the above 'card' design because it worked well with the small images that would often accompany news stories (the department did not have access to a regular photographer).</p>
+						<p>in addition, it was important to create a similar aesthetic to that of the <b>web framework redesign</b> (case study #1) to give the department's brand identity a sense of thematic consistency.</p>
+						<h2>homepage options</h2>
+						<p>i decided on a multi-option homepage layout to give news stories different 'tones.' as a result, a single story could be presented in a few different ways, depending on the tone the author wanted to convey.</p>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>light tone</h3>
+							<img src="images/news-light.png" alt="news site light tone screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>dark tone</h3>
+							<img src="images/news-dark.png" alt="news site dark tone screenshot">
+						</div>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>purple tone (example 1)</h3>
+							<img src="images/news-ex1.png" alt="news site purple tone screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>purple tone (example 2)</h3>
+							<img src="images/news-ex2.png" alt="news site purple tone screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>vertical content, horizontal menu</h2>
+						<p>with the focus of the news site being, well, <b>news</b>, i kept the top of each page free from getting bogged down with links. in order to do so, i tucked the sparse navigation off and away to the side, with the focus being more on the content and vertical nature of the ui.</p>
+						<p>my design moves the eye in a vertical motion, much like what inspired it: newspapers and magazines.</p>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>mobile menu</h3>
+							<img src="images/news-menu-mobile.png" alt="news site mobile menu screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>desktop menu</h3>
+							<img src="images/news-menu.png" alt="news site desktop menu screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>reading a story</h2>
+						<p>complete with bold headers (à la the web framework redesign introduced in case study #1), text callout options and background image overlays, each news item can highlight important story aspects.</p>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>news story (mobile)</h3>
+							<img src="images/news-story-mobile.png" alt="news story page mobile screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>news story (desktop)</h3>
+							<img src="images/news-story.png" alt="news story page desktop screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>sharing + suggesting stories</h2>
+						<p>at the end of each story, readers get the opportunity to share said story or read related/recent stories.</p>
+						<p>while the desktop version has an everpresent 'share' option for facebook and twitter (our most active social medias), both the mobile and desktop designs give users the chance to share stories on a number of different platforms.</p>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>bottom of story (mobile)</h3>
+							<img src="images/news-story-end-mobile.png" alt="news story page bottom mobile screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>bottom of story (desktop)</h3>
+							<img src="images/news-story-end.png" alt="news story page bottom desktop screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>closing thoughts</h2>
+						<p>the process of designing a news site for the biggest department at the university came with many challenges.</p>
+						<p>from balancing design with functionality to designing for little/no media use-cases, this was an incredibly challenging (and rewarding) project.</p>
+						<p><em>as with every project, an in-depth walkthrough is available upon request.</em></p>
+					</div>
+
+					<div class="footer">
+						<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
 					</div>
 
 
 				</div>
 
 
-				<div class="line text">
-					<h2>Alexander Bonilla</h2>
-					<p>Senior ux/ui designer & developer.</p>
-					<p>3+ yrs of experience as a creative lead at the University of Washington.</p>
-				</div>
-
-
-			</div>
-
-
-
-
-
-
-			<div id="stories">
-
-
-				<button id="about-me-story" href="">
-					<img src="images/profile-photo-sp.jpg">
-					<h3>ABOUT ME</h3>
-				</button>
-
-				<a href="">
-					<img src="images/profile-photo-sp.jpg">
-					<h3>LINKEDIN</h3>
-				</a>
-
-
-			</div>
-
-			<div id="aboutModal">
-				<div class="modal-content">
-					<img src="images/profile-photo-sp.jpg" class="about-profile">
-					<h3>ABOUT ME</h3>
-					<img src="images/x-white.png" id="closeAbout">
-    				<div class="underline"></div>
-    				<img class="about-img" src="https://wallpapercave.com/wp/wp1817025.png">
-				</div>
-			</div>
-
-
-
-
-
-
-			<div id="posts-header">
-
-				<div class="header-centered">
-
-					<a href="" class="works active">
-						<img src="images/posts-icon-active.png">
-						<h2>WORKS</h2>
-					</a>
-
-					<a href="" class="random">
-						<img src="images/tagged-icon.png">
-						<h2>RANDOM</h2>
-					</a>
-
-				</div>
-
-				<!-- <div class="mobile-header-centered">
-					<a href="" class="works active">
-						<img src="images/posts-icon-active.png">
-					</a>
-					<a href="" class="random">
-						<img src="images/tagged-icon.png">
-					</a>
-				</div> -->
-
-			</div>
 
 
 
@@ -200,121 +539,263 @@
 
 
 
-			<ul id="all-posts" style="list-style: none;">
-
-				<li>
-					<button onclick="openThis(this)">
-						<img src="images/profile-photo-sp.jpg">
-						<div class="proj-back" style="
-							display: none;
-							width: 100%;
-							height: 100%;
-							background-color: red;
-							position: fixed;
-							z-index: 2;
-							top: 0px;
-							left: 0px;
-							overflow: scroll;
-							">
-							<div class="proj-container" style="
-								width: 90%;
-								background-color: #fff;
-								position: relative;
-								left: 5%;
-								top: 5%;
-								padding: 10px;
-								border-radius: 20px;
-								">
-
-								<div onclick="closeAll()" style="
-									position: absolute;
-									right: 2px;
-									top: 30px;
-									">
-									<img src="images/x-white.png" style="
-										position: relative;
-										right: -10px;
-										height: 24px;
-										width: 24px;
-										">
-									<p style="
-										position: relative;
-										right: 64px;
-										top: -27px;
-										color: #fff;
-										font-size: 21px;
-										font-weight: 600;">CLOSE</p>
-								</div>
 
 
+				<div id="study3" class="study">
 
-								<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/BW_Summer_Festival_Skinny_Dip_2013_banner.jpg" style="
-									width: 100%;
-									border-radius: 10px;
-									">
-								<h2>UW Department of Medicine Website</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id velit ut tortor pretium viverra suspendisse potenti. Vitae suscipit tellus mauris a diam maecenas sed.</p>
-								
-							</div>
-							
+					<div class="header">
+						<h2>building a new website for an important research center</h2>
+						<span></span>
+						<h3>oct 2018 - feb 2019</h3>
+					</div>
+
+					<div class="body">
+						<h2>the problem</h2>
+						<p>the center for emerging & re-emerging infectious diseases (long names tend to be common in the medical field) was looking to create a new website after years of using a very stagnant and sluggish site.</p>
+						<p>i had just started with the department of medicine at this point, and the template options we offered at the time were incredibly limiting.</p>
+					</div>
+
+
+					<div class="mobile">
+						<div>
+							<h3>old homepage (mobile)</h3>
+							<img src="images/cerid-old-mobile.png" alt="old cerid mobile screenshot">
 						</div>
+						<span></span>
+						<div>
+							<h3>old homepage (desktop)</h3>
+							<img src="images/cerid-old.png" alt="old cerid desktop screenshot">
+						</div>
+					</div>
 
-					</button>
+					<div class="body">
+						<h2>the goal</h2>
+						<p>as the new designer/developer, i wanted to give the center team more than the two very simple template options that the framework had to offer.</p>
+						<p>as shown in case study #1, the two original templates were the following:</p>
+					</div>
 
-					<span class="space"></span>
+					<div class="half">
+						<div>
+							<h3>template 1</h3>
+							<img src="images/now1-home.png" alt="old template 1 screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>template 2</h3>
+							<img src="images/now2-home.png" alt="old template 2 screenshot">
+						</div>
+					</div>
 
-				</li>
+					<div class="body">
+						<h2>temporary templates</h2>
+						<p>the framework at this point was hosting around 14 websites with just 2 template options. as a result, every website looked incredibly similar to every other website.</p>
+						<p>the biggest issue with this was not that the template options were plain (although that didn't help), but that no one site looked different from another. this resulted in confused users; they would often navigate to an entirely different website without knowing it.</p>
+						<h2>a third template is born</h2>
+						<p>after toying around with different design ideas and user stories, i very quickly came up with a template design option that could be built in a month (our timeline was tight). the new template was:</p>
+						<ul>
+							<li>a modern take on the base template look (as modern as possible within the constraints)</li>
+							<li>a design that incorporated the "uw" aesthetic that was more popular at the time</li>
+							<li>something the clients could actually get excited about</li>
+						</ul>
+					</div>
 
+					<div class="full">
+						<h3>cerid's new homepage (using the new 'template 3')</h3>
+						<img src="images/cerid-new.png" alt="new cerid homepage screenshot">
+					</div>
 
-				<li>
-					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
-					<span class="space"></span>
-				</li>
+					<div class="body">
+						<h2>closing thoughts</h2>
+						<p>the cerid team was incredibly happy with their new website. before we came along, they had little control over their website and visuals.</p>
+						<p>'template 3' was a hit, and as you can see with <b>case study #4</b> (department of medicine division sites), we continued to use 'template 3' for the many division projects to come.</p>
+						<p><em>as with every project, an in-depth walkthrough is available upon request.</em></p>
+					</div>
 
+					<div class="footer">
+						<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
+					</div>
 
-				<li>
-					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
-					<div class="space"></div>
-				</li>
+					
+				</div>
 
 
 				
 
 
-				<li>
-					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
-					<span class="space"></span>
-				</li>
-
-
-
-				<li>
-					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
-					<span class="space"></span>
-				</li>
-
-
-
-				<li>
-					<button onclick="openThis(this)"><img src="images/profile-photo-sp.jpg"></button>
-					<div class="space"></div>
-				</li>
-
-
-
-			</ul>
 
 
 
 
 
-			<!-- <ul id="footer">
-				<li><a href="">HOME</a></li>
-				<li><a href="">WORK</a></li>
-				<li><a href="">RANDOM</a></li>
-				<li><a href="">LINKEDIN</a></li>
-				<li><a href="">CONTACT</a></li>
-			</ul> -->
+
+
+				<div id="study4" class="study">
+
+					<div class="header">
+						<h2>13 divisions, 1 department: the department of medicine story</h2>
+						<span></span>
+						<h3>oct 2018 - present</h3>
+					</div>
+
+					<div class="body">
+						<h2>a quick history lesson on the department</h2>
+						<p>the department of medicine has 13 divisions, and about half of said divisions' websites were on the web framework when i started this position. the remaining websites not on the framework were <b>incredibly</b> outdated and difficult to use, often times resulting in a decrease in recruitment numbers.</p>
+						<h2>the ongoing goal</h2>
+						<p>since day 1, the goal was to bring on the remaining divisions so that the department of medicine could present a more unified and modern web presence to internal/external audiences.</p>
+						<p>in my first 6 months of employment, we added 3 division sites. we added 3 more over the course of the next year, pushing the number to 12 total division sites – all the while working on a number of other web projects.</p>
+						<h2>before & after</h2>
+						<p>below are a few before & after shots of our division sites. you can see that they all went with the 'template 3' option i created back in <b>2018 for cerid</b> (case study #3).</p>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>dermatology before</h3>
+							<img src="images/derm-old.png" alt="old dermatology homepage screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>dermatology after</h3>
+							<img src="images/derm-new.png" alt="new dermatology homepage screenshot">
+						</div>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>pulmonary before</h3>
+							<img src="images/pulm-old.png" alt="old pulmonary homepage screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>pulmonary after</h3>
+							<img src="images/pulm-new.png" alt="new pulmonary homepage screenshot">
+						</div>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>gerontology before</h3>
+							<img src="images/ger-old.png" alt="old gerontology homepage screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>gerontology after</h3>
+							<img src="images/ger-new.png" alt="new gerontology homepage screenshot">
+						</div>
+					</div>
+
+					<div class="half">
+						<div>
+							<h3>gastroenterology before</h3>
+							<img src="images/gastro-old.png" alt="old gastroenterology homepage screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>gastroenterology after</h3>
+							<img src="images/gastro-new.png" alt="new gastroenterology homepage screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>closing thoughts</h2>
+						<p>like most improvement-related projects, this project will never truly be 'closed.' the department of medicine carries a rich history of innovation, and i've been lucky enough to see a small fraction of it through these division website projects.</p>
+						<p>in the same way that the divisions will improve over time, so too will their websites.</p>
+						<p><em>as with every project, an in-depth walkthrough is available upon request.</em></p>
+					</div>
+
+
+					<div class="footer">
+						<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
+					</div>
+					
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div id="study5" class="study">
+
+					<div class="header">
+						<h2>obgyn joins our web framework as the first paying client</h2>
+						<span></span>
+						<h3>jan 2019 - sept 2019</h3>
+					</div>
+
+					<div class="body">
+						<h2>how it began</h2>
+						<p>like many other departments at the university, obgyn was looking to update their website.</p>
+						<p>by this point we had designed and built a large number of division and center sites. word had started going around about our service, and once the department of obgyn caught wind, they reached out to us for help.</p>
+						<h2>the goal</h2>
+						<p>design and build a new site with obgyn leadership while migrating content over from their existing site. the finished site needed to:</p>
+						<ul>
+							<li>organize content in a more efficient manner</li>
+							<li>effectively present information to users and stakeholders</li>
+							<li>update the visuals and user interface to be more in-line with main campus</li>
+						</ul>
+					</div>
+
+
+					<div class="mobile">
+						<div>
+							<h3>original homepage (mobile)</h3>
+							<img src="images/obgyn-old-mobile.png" alt="old obgyn homepage mobile screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>original homepage (desktop)</h3>
+							<img src="images/obgyn-old.png" alt="old obgyn homepage desktop screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>web woes</h2>
+						<p>the original website was full of issues, including:</p>
+						<ul>
+							<li>breaking on mobile devices</li>
+							<li>repeated, verbose content</li>
+							<li>confusing navigation and information architecture</li>
+						</ul>
+						<h2>highlighting news items</h2>
+						<p>we had an option with our framework templates to turn on a 'hero news item' functionality. this allowed a news item to be highlighted on the homepage, and i worked with obgyn leadership to make sure they displayed their news stories as best they could with this feature.</p>
+					</div>
+
+					<div class="mobile">
+						<div>
+							<h3>current homepage (mobile)</h3>
+							<img src="images/obgyn-new-mobile.png" alt="new obgyn homepage mobile screenshot">
+						</div>
+						<span></span>
+						<div>
+							<h3>current homepage (desktop)</h3>
+							<img src="images/obgyn-new.png" alt="new obgyn homepage desktop screenshot">
+						</div>
+					</div>
+
+					<div class="body">
+						<h2>what's next</h2>
+						<p>obgyn (like all other clients) were brought on to the framework prior to our drupal 8 update. while their current site is a fantastic improvement from the original, the plan is to eventually move them over to drupal 8 with my more current design (case study #1).</p>
+						<h2>closing thoughts</h2>
+						<p>this was the first project where we brought in money for our department. prior to obgyn, we had no paying clients, but our hard work building and designing so many sites in such little time quite literally payed off.</p>
+						<p>obgyn was a joy to work with, and they were just as happy as we were with the finished product.</p>
+						<p><em>as with every project, an in-depth walkthrough is available upon request.</em></p>
+					</div>
+
+					<div class="footer">
+						<a href="mailto:alxbonilla1@gmail.com">alxbonilla1@gmail.com</a>
+					</div>
+
+					
+				</div>
 
 
 
@@ -323,112 +804,155 @@
 
 			
 
+		</div>
+	
 
+
+
+		<div id="top">
+			<a href="#case-studies">top
+				<img src="images/open-icon.png" alt="arrow pointing upwards">
+			</a>
 		</div>
 
 
-		
-		
 
 
 
 
-		
+
+
+
+
+
+
+
+
+		<footer>
+			<div>alexander bonilla</div>
+			<a href="mailto:alxbonilla1@gmail.com">alxbonilla@gmail.com</a>
+		</footer>
+
 		
 
 
 
 		<script>
 
-			var followersModal = document.getElementById("followersModal");
-			var followingModal = document.getElementById("followingModal");
-			var aboutModal = document.getElementById("aboutModal");
-			var followers = document.getElementById("followers");
-			var following = document.getElementById("following");
-			var about = document.getElementById("about-me-story");
-			var closeFollowers = document.getElementById("closeFollowers");
-			var closeFollowing = document.getElementById("closeFollowing");
-			var closeAbout = document.getElementById("closeAbout");
 
+			var mouse = true;
 
-			followers.onclick = function() {
-				followersModal.style.display = "block";
-			}
-			following.onclick = function() {
-				followingModal.style.display = "block";
-			}
-			about.onclick = function() {
-				aboutModal.style.display = "block";
+			document.onload = function() {
+				toggleFocus();
 			}
 
-			closeFollowers.onclick = function() {
-				followersModal.style.display = "none";
-			}
-			closeFollowing.onclick = function() {
-				followingModal.style.display = "none";
-			}
-			closeAbout.onclick = function() {
-				aboutModal.style.display = "none";
-			}
+			document.onkeydown = function(event) {
+				mouse = false;
+				toggleFocus();
+			};
 
-			window.onclick = function(event) {
-				if (event.target == followersModal) {
-					followersModal.style.display = "none";
+			document.onmousedown = function(event) {
+				mouse = true;
+				toggleFocus();
+			};
+
+			var inputs = document.getElementsByTagName("input");
+			function toggleFocus() {
+				for (var i = 0; i < inputs.length; i++) {
+					var open = inputs[i].nextElementSibling.getElementsByClassName("spacebar-open");
+					var close = inputs[i].nextElementSibling.getElementsByClassName("spacebar-close");
+					if (mouse) {
+						open[0].style.display = "none";
+						close[0].style.display = "none";
+					} else {
+						open[0].style.display = "block";
+						close[0].style.display = "block";
+					}
 				}
-				if (event.target == followingModal) {
-					followingModal.style.display = "none";
+			};
+
+
+
+
+			function check(input) {
+
+				var span = input.nextElementSibling.getElementsByTagName("span");
+				if (!input.checked) {
+					input.nextElementSibling.style.boxShadow = "none";
+					input.nextElementSibling.style.marginTop = "7px";
+					span[0].style.width = "120px";
 				}
-				if (event.target == aboutModal) {
-					aboutModal.style.display = "none";
+
+			};
+
+
+
+
+			function uncheck(input) {
+
+				if (!input.checked) {
+
+					var span = input.nextElementSibling.getElementsByTagName("span");
+					input.nextElementSibling.removeAttribute("style");
+					span[0].removeAttribute("style");
+
+					var checkboxes = document.getElementsByTagName("input");
+					for (var i = 0; i < checkboxes.length; i++) {
+						checkboxes[i].checked = false;
+					}
 				}
-			}
+
+			};
 
 
+			function press(input) {
+				check(input);
+				uncheck(input);
+			};
 
 
+			var scroll = document.getElementById("scroll");
+			window.onload = function () {
+				scroll.style.opacity = "1";
+				scroll.style.height = "80px";
+				scroll.firstElementChild.style.opacity = "1";
+				scroll.firstElementChild.style.top = "116px";
+			};
 
-			function openThis(thumb) {
-				var yes = thumb.children;
-				yes[1].style.display = "block";
-				console.log(yes[1]);
-			}
+			var scrollPosition = 0;
+			var lastScrollPosition = 0;
 
+			var cards = document.getElementById("case-studies");
+			var topDiv = document.getElementById("top");
 
+			window.addEventListener('scroll', function(e) {
+				scrollPosition = window.scrollY;
+				if (scrollPosition > lastScrollPosition) {
+					scroll.style.opacity = "0";
+					scroll.style.height = "10px";
+					scroll.firstElementChild.style.opacity = "0";
+					scroll.firstElementChild.style.top = "66px";
+				} else if (scrollPosition == 0) {
+					scroll.style.opacity = "1";
+					scroll.style.height = "80px";
+					scroll.firstElementChild.style.opacity = "1";
+					scroll.firstElementChild.style.top = "116px";
+				}
+				lastScrollPosition = scrollPosition;
 
-			// var hash = window.location.hash;
-			// setInterval(function(){
-			//     if (window.location.hash != hash) {
-			//         hash = window.location.hash;
-			//         alert("User went back or forward to application state represented by " + hash);
-			//     }
-			// }, 100);
-
-
-
-
-
-
-
-
-
-
-
-
-
+				if (scrollPosition > (cards.offsetTop)) {
+					topDiv.style.visibility = "visible";
+					topDiv.style.opacity = "1";
+					topDiv.style.top = "324px";
+				} else {
+					topDiv.style.visibility = "hidden";
+					topDiv.style.opacity = "0";
+					topDiv.style.top = "344px";
+				}
+			});
 
 
 		</script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
