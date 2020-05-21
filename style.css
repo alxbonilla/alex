@@ -1001,7 +1001,7 @@ p {
 }
 
 #case-studies .study .half div {
-	width: 49%;
+	width: 48%;
 }
 
 #case-studies .study .half span,
@@ -1014,7 +1014,7 @@ p {
 }
 
 #case-studies .study .mobile div:last-child {
-	width: 77%;
+	width: 76%;
 }
 
 @media only screen and (max-width: 1120px) {
@@ -1027,6 +1027,7 @@ p {
 	}
 	#case-studies .study .mobile div:first-child {
 		max-width: 414px;
+		margin-bottom: 20px;
 	}
 	#case-studies .study .half span,
 	#case-studies .study .mobile span {
