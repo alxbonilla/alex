@@ -570,6 +570,24 @@ p {
 	background-position: top left;
 }
 
+@media only screen and (max-width: 600px) {
+	#case-studies #study1 .header {
+		background-image: url(images/pills-by-anshu-a-mobile.png);
+	}
+	#case-studies #study2 .header {
+		background-image: url(images/magazines-by-ali-shah-lakhani-mobile.png);
+	}
+	#case-studies #study3 .header {
+		background-image: url(images/cerid-mobile.png);
+	}
+	#case-studies #study4 .header {
+		background-image: url(images/seattle-by-shunya-koide-mobile.png);
+	}
+	#case-studies #study5 .header {
+		background-image: url(images/room-by-adrien-olichon-mobile.png);
+	}
+}
+
 #case-studies input#toggle1:checked ~ #study1,
 #case-studies input#toggle2:checked ~ #study2,
 #case-studies input#toggle3:checked ~ #study3,
