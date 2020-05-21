@@ -358,10 +358,10 @@ p {
 
 
 #case-studies {
-	overflow-x: scroll;
+	overflow-x: hidden;
 	overflow-y: hidden;
 	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
+	/*-webkit-overflow-scrolling: touch;*/
 	padding: 20px 0px 20px 210px;
 	margin-top: -100px;
 }
@@ -514,6 +514,9 @@ p {
 	#case-studies {
 		padding: 20px 0px 20px 130px;
 	}
+	#case-studies {
+		overflow-x: scroll;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -531,11 +534,14 @@ p {
 	#case-studies input + .card .spacebar-close {
 		visibility: hidden;
 	}
+	#case-studies {
+		padding: 20px 0px 0px 30px;
+	}
 }
 
 @media only screen and (max-width: 340px) {
 	#case-studies {
-		padding: 20px 0px 20px 17px;
+		padding: 20px 0px 0px 17px;
 	}
 }
 
